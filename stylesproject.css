@@ -1,0 +1,67 @@
+
+
+.projecto1{
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.projecto2{
+    display: flex;
+    flex-direction: column;
+    width:350px;
+    height: 400px;
+    background-color: #000000;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 7px;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 8px 8px 13px 1px rgba(0,0,0,0.51);
+-webkit-box-shadow: 8px 8px 13px 1px rgba(0,0,0,0.51);
+-moz-box-shadow: 8px 8px 13px 1px rgba(0,0,0,0.51);
+}
+
+.project-titleo{
+    margin:0;
+    background-color: #333333;
+    color:#ffffff;
+    width: 100%;
+    text-align: center;
+
+}
+.project-deso{
+    background-color: #ffffffd0;
+    margin-top: 10px;
+    width: 70%;
+    padding: 0px 10px 0px 10px;
+    text-align: justify;
+    font-size: 0.85rem;
+    border-radius: 5px;
+}
+
+.projecto2:hover{
+    display: flex;
+    position: relative;
+    top: -5px;
+    flex-direction: column;
+    width:350px;
+    height: 400px;
+    background-color: #000000;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 7px;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 8px 8px 15px 5px rgba(0,0,0,0.51);
+    -webkit-box-shadow: 8px 8px 15px 5px rgba(0,0,0,0.51);
+    -moz-box-shadow: 8px 8px 15px 5px rgba(0,0,0,0.51);
+}

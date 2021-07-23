@@ -1,0 +1,25 @@
+---
+layout: base
+title: Portfolio
+permalink: /portfolio/
+image: /assets/img/cover.jpg
+accent_image: 
+  background: url('/assets/img/cover.jpg') center/cover
+  overlay: false
+accent_color: '#005294'
+theme_color: '#005294'
+
+---
+<link rel="stylesheet" href="/stylesproject.css"> 
+
+<h1 class="post-title flip-project-title">My Projects</h1>
+<hr>
+
+<div class="projecto1" >
+{% for project in site.projects %}
+    <div class="projecto2" style = "background-image: url('{{project.imgurl}}');" onclick="location.href='{{project.projurl}}'">
+        <h2 class="project-titleo">{{project.title}}</h2>
+        <p class="project-deso">{{project.minides}}</p>
+    </div>
+{%endfor%}
+</div>
